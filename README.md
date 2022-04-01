@@ -30,6 +30,9 @@
 ## 安装步骤
 
 ```
+//如果部署在nginx上无需修改
+打开vue.config.js
+修改publicPath: '/',
 // 把项目下载到本地
 git clone https://github.com/Ni3RaN/steel_material_client.git
 // 进入模板目录
