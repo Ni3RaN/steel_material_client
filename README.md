@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
 </a>
 
-基于 Vue3 + Element Plus 的管理系统项目。[体验地址](http://81.70.243.180)
+基于 Vue3 + Element Plus 的管理系统项目。[体验地址](https://ni3ran.github.io/steel_material)
 
 ## 前言
 
