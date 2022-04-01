@@ -13,7 +13,9 @@
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
 </a>
 
-基于 Vue3 + Element Plus 的管理系统项目。[体验地址](https://ni3ran.github.io/steel_material)
+基于 Vue3 + Element Plus 的管理系统项目。[体验地址](https://81.70.243.180)
+
+[后端项目地址](https://github.com/Ni3RaN/steel_material_server)
 
 ## 前言
 
@@ -32,7 +34,7 @@
 ```
 //如果部署在nginx上无需修改
 打开vue.config.js
-修改publicPath: '/',
+注释publicPath: './',
 // 把项目下载到本地
 git clone https://github.com/Ni3RaN/steel_material_client.git
 // 进入模板目录

@@ -701,7 +701,6 @@ export default {
   },
   async mounted() {
     this.t_size = document.documentElement.clientWidth*0.4;
-    console.log(this.t_size);
     const main1 = document.getElementById('main1');
     main1.style.height = this.t_size+'px';
     main1.style.width = this.t_size+'px';
