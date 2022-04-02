@@ -66,13 +66,6 @@ export default {
           .then(function (value) {
             total=value;
           })
-          .catch(function (reason) {
-            ElMessage({
-              message: reason,
-              center: true,
-              type: 'error',
-            });
-          });
       this.total = total.data;
     },
 
@@ -87,13 +80,6 @@ export default {
             res=value;
             console.log(typeof res.data);
           })
-          .catch(function (reason) {
-            ElMessage({
-              message: reason,
-              center: true,
-              type: 'error',
-            });
-          });
       this.tableData = res.data;
     },
 
